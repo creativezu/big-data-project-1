@@ -1,0 +1,56 @@
+2022.02.03 16:53:46 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/Projects/Big Data/211213-Big-Data-Reston/week 7/Project1Ex/.metals/lsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.02.03 16:53:47 INFO  logging to file /Users/user/Projects/Big Data/211213-Big-Data-Reston/week 7/Project1Ex/.metals/metals.log
+2022.02.03 16:53:47 INFO  Started: Metals version 0.11.1 in workspace '/Users/user/Projects/Big Data/211213-Big-Data-Reston/week 7/Project1Ex' for client Visual Studio Code 1.63.2.
+2022.02.03 16:53:47 INFO  Parse release: 1.8.0_321
+2022.02.03 16:53:49 INFO  time: initialize in 1.46s
+2022.02.03 16:53:49 WARN  Build server is not auto-connectable.
+2022.02.03 16:55:53 INFO  shutting down Metals
+2022.02.03 16:55:53 ERROR Unexpected error initializing server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2022.02.03 16:56:03 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/Projects/Big Data/Project1/.metals/lsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.02.03 16:56:03 INFO  logging to file /Users/user/Projects/Big Data/Project1/.metals/metals.log
+2022.02.03 16:56:03 INFO  Started: Metals version 0.11.1 in workspace '/Users/user/Projects/Big Data/Project1' for client Visual Studio Code 1.63.2.
+2022.02.03 16:56:03 INFO  Parse release: 1.8.0_321
+2022.02.03 16:56:05 INFO  time: initialize in 1.5s
+2022.02.03 16:56:09 WARN  Build server is not auto-connectable.
+2022.02.03 16:56:09 WARN  no build target for: /Users/user/Projects/Big Data/Project1/src/main/scala/Project1.scala
+2022.02.03 16:56:13 INFO  no build target found for /Users/user/Projects/Big Data/Project1/src/main/scala/Project1.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.03 16:56:17 INFO  time: code lens generation in 6.16s
+2022.02.03 16:56:20 INFO  running '/Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/8d/0r3w9q4d5pd_lvg0b67_fl540000gn/T/metals7887025200517692022/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.02.03 16:56:20 WARN  no build target for: /Users/user/Projects/Big Data/Project1/project/metals.sbt
+2022.02.03 16:56:20 WARN  no build target for: /Users/user/Projects/Big Data/Project1/project/project/metals.sbt
+2022.02.03 16:56:20 INFO  skipping build import with status 'Started'
+2022.02.03 16:56:22 INFO  [info] welcome to sbt 1.6.1 (Oracle Corporation Java 1.8.0_321)
+2022.02.03 16:56:26 INFO  [info] loading settings for project project1-build-build from metals.sbt ...
+2022.02.03 16:56:28 INFO  [info] loading project definition from /Users/user/Projects/Big Data/Project1/project/project
+2022.02.03 16:56:31 INFO  [info] loading settings for project project1-build from metals.sbt ...
+2022.02.03 16:56:31 INFO  [info] loading project definition from /Users/user/Projects/Big Data/Project1/project
+2022.02.03 16:56:38 INFO  [success] Generated .bloop/project1-build.json
+2022.02.03 16:56:38 INFO  [success] Total time: 7 s, completed Feb 3, 2022 4:56:39 PM
+2022.02.03 16:56:41 INFO  [info] loading settings for project project1 from build.sbt ...
+2022.02.03 16:56:41 INFO  [info] set current project to Project1Ex (in build file:/Users/user/Projects/Big%20Data/Project1/)
+2022.02.03 16:56:55 INFO  [success] Generated .bloop/project1.json
+2022.02.03 16:56:55 INFO  [success] Generated .bloop/project1-test.json
+2022.02.03 16:56:55 INFO  [success] Total time: 14 s, completed Feb 3, 2022 4:56:55 PM
+2022.02.03 16:56:55 INFO  time: ran 'sbt bloopInstall' in 35s
+2022.02.03 16:56:55 INFO  Attempting to connect to the build server...
+2022.02.03 16:56:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/Projects/Big Data/Project1/.metals/bsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.02.03 16:56:55 INFO  Attempting to connect to the build server...
+2022.02.03 16:56:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/user/Projects/Big Data/Project1/project/.metals/bsp.trace.json or /Users/user/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.02.03 16:56:55 INFO  time: Connected to build server in 0.37s
+2022.02.03 16:56:55 INFO  Connected to Build server: Bloop v1.4.12
+2022.02.03 16:57:07 INFO  time: indexed workspace in 11s
+2022.02.03 16:57:08 INFO  compiling project1 (1 scala source)
+2022.02.03 16:57:11 WARN  there were 11 deprecation warnings; re-run with -deprecation for details
+2022.02.03 16:57:11 INFO  time: compiled project1 in 3.43s

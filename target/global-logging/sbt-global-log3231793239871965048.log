@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(c2e61383-791c-432b-b80c-858d76bf4ebd), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/user/Projects/Big Data/211213-Big-Data-Reston/week 7/Project1Ex/target/scala-2.11/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/user/Projects/Big Data/211213-Big-Data-Reston/week 7/Project1Ex/src/main/scala/Project1.scala:108:7: not found: value df[0m
+[0m[[0m[31merror[0m] [0m[0m      df.write.mode("overwrite").csv("/Users/user/Projects/Big Data/211213-Big-Data-Reston/week 7/Project1Ex/results/topGDP")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 7 s, completed Jan 31, 2022 11:13:20 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
