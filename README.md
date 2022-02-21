@@ -1,4 +1,4 @@
-## Project 1
+## Scala - Hive: Real time news analyzer
 - Project 1 will be a Scala console application that is retrieving data using Hive or MapReduce. Your job is to build a real-time news analyzer. This application should allow users to view the trending topics (e.g. all trending topics for news related to "politics", "tv shows", "movies", "video games", or "sports" only [choose one topic for project]).
 - You must present a project proposal to trainer and be approved before proceeding with project. 
 
@@ -15,11 +15,6 @@
 - implement bucketing, and partitioning
 - can use hive with screenshots but make as program in 
      VSCode too with appropriate dependencies
-
-### Stretch Goals:
-- Passwords must be encrypted
-- Export all results into a JSON file
-- find a trend
 
 ### Presentations
 - You will be asked to run an analysis using the console application on the day of the presentation, so be prepared to do so.
